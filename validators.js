@@ -1,13 +1,13 @@
-exports.isValidName = (name) => {
+function isValidName(name) {
 	// at least 3 letters
 	// remove whitespace
 	if (typeof name == "string" && name.trim().length >= 3) {
 		return true;
 	}
 	return false;
-};
+}
 
-exports.isValidNumber = (input) => {
+function isValidNumber(input) {
 	// number or string number
 	// whole number
 	// no negative numbers
@@ -18,4 +18,4 @@ exports.isValidNumber = (input) => {
 		return true;
 	}
 	return false;
-};
+}
