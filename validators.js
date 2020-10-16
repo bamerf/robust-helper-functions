@@ -56,3 +56,5 @@ function findAllMatching(match, array) {
 	}
 	return ret;
 }
+
+function test() {}
